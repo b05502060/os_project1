@@ -1,0 +1,76 @@
+uname -r
+cat /proc/cpuinfo | grep processor | wc -l
+
+show program
+delete a.out
+gcc aa.c
+
+TIME_MEASUREMENT
+sudo dmesg -c
+./a.out TIME_MEASUREMENT.txt TIME_MEASUREMENT_stdout.txt
+dmesg | grep Project1 > TIME_MEASUREMENT_dmesg.txt
+
+FIFO
+./a.out FIFO_1.txt FIFO_1_stdout.txt
+dmesg | grep Project1 > FIFO_1_dmesg.txt
+
+./a.out FIFO_2.txt FIFO_2_stdout.txt
+dmesg | grep Project1 > FIFO_2_dmesg.txt
+
+./a.out FIFO_3.txt FIFO_3_stdout.txt
+dmesg | grep Project1 > FIFO_3_dmesg.txt
+
+./a.out FIFO_4.txt FIFO_4_stdout.txt
+dmesg | grep Project1 > FIFO_4_dmesg.txt
+
+./a.out FIFO_5.txt FIFO_5_stdout.txt
+dmesg | grep Project1 > FIFO_5_dmesg.txt
+
+PSJF
+./a.out PSJF_1.txt PSJF_1_stdout.txt
+dmesg | grep Project1 > PSJF_1_dmesg.txt
+
+./a.out PSJF_2.txt PSJF_2_stdout.txt
+dmesg | grep Project1 > PSJF_2_dmesg.txt
+
+./a.out PSJF_3.txt PSJF_3_stdout.txt
+dmesg | grep Project1 > PSJF_3_dmesg.txt
+
+./a.out PSJF_4.txt PSJF_4_stdout.txt
+dmesg | grep Project1 > PSJF_4_dmesg.txt
+
+./a.out PSJF_5.txt PSJF_5_stdout.txt
+dmesg | grep Project1 > PSJF_5_dmesg.txt
+
+RR
+./a.out RR_1.txt RR_1_stdout.txt
+dmesg | grep Project1 > RR_1_dmesg.txt
+
+./a.out RR_2.txt RR_2_stdout.txt
+dmesg | grep Project1 > RR_2_dmesg.txt
+
+./a.out RR_3.txt RR_3_stdout.txt
+dmesg | grep Project1 > RR_3_dmesg.txt
+
+./a.out RR_4.txt RR_4_stdout.txt
+dmesg | grep Project1 > RR_4_dmesg.txt
+
+./a.out RR_5.txt RR_5_stdout.txt
+dmesg | grep Project1 > RR_5_dmesg.txt
+
+SJF
+./a.out SJF_1.txt SJF_1_stdout.txt
+dmesg | grep Project1 > SJF_1_dmesg.txt
+
+./a.out SJF_2.txt SJF_2_stdout.txt
+dmesg | grep Project1 > SJF_2_dmesg.txt
+
+./a.out SJF_3.txt SJF_3_stdout.txt
+dmesg | grep Project1 > SJF_3_dmesg.txt
+
+./a.out SJF_4.txt SJF_4_stdout.txt
+dmesg | grep Project1 > SJF_4_dmesg.txt
+
+./a.out SJF_5.txt SJF_5_stdout.txt
+dmesg | grep Project1 > SJF_5_dmesg.txt
+
